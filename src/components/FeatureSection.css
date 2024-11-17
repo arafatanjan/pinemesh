@@ -1,0 +1,115 @@
+/* .features-section {
+    display: flex;
+    padding: 2rem;
+    background-color: #f9fafb;
+  }
+  
+  .features-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .features-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .features-section ul li {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+  }
+   */
+  /* Features Section Styles */
+.features-section {
+  /* padding: 2rem; */
+  /* max-width: 600px; */
+  /* margin: auto; */
+  /* text-align: left; */
+  /* font-family: Arial, sans-serif; */
+}
+
+.features-content {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 0rem;
+  /* background-color: #f9fafb; */
+}
+
+.features-section h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: #666;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feature-item:hover {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.feature-item .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #666;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.feature-item.highlighted {
+  color: #333;
+}
+
+.feature-item.highlighted .icon {
+  background-color: #d1c4e9; /* Light purple */
+  color: #5e35b1; /* Dark purple */
+}
+
+.feature-item p {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.learn-more-btn {
+  display: block;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  color: #00695c;
+  border: 2px solid #00695c;
+  background-color: transparent;
+  border-radius: 20px;
+  text-align: center;
+  margin: 2rem auto 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background-color: #00695c;
+  color: #fff;
+}

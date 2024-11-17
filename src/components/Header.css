@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  width: 60%;
+  margin: auto;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.header ul li {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.header .login-btn {
+  padding: 0.5rem 1rem;
+  background-color: #00aaff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header .login-btn:hover {
+  background-color: #008ecc;
+}

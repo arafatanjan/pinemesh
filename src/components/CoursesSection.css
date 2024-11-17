@@ -1,0 +1,62 @@
+
+.courses-section {
+  padding: 2rem;
+  background-color: #fff;
+  text-align: start;
+  width: 70%;
+  margin: auto;
+}
+
+.courses-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.courses-section p {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.courses-carousel {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  overflow-x: scroll;
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory;
+}
+
+.courses-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.navigation-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+}
+
+
+.nav-button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc; 
+  border-radius: 50%; 
+  background-color: transparent;
+  
+  cursor: pointer;
+  transition: all 0.3s ease;
+  /* font-size: 1.2rem; 
+  color: #666;  */
+}
+
+.nav-button:hover {
+  border-color: #000; 
+  color: #000; 
+}
+
+
+.nav-button i {
+  display: inline-block;
+}
