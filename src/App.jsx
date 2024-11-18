@@ -5,7 +5,6 @@ import CoursesSection from './components/CoursesSection';
 import FeaturesSection from './components/FeaturesSection';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer.jsx';
-import './app.css'
 
 function App() {
   return (
