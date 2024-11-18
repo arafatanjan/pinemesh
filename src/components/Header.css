@@ -2,10 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem; */
   background-color: #fff;
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 
@@ -24,15 +24,24 @@
   cursor: pointer;
 }
 
+.cart-login{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
 .header .login-btn {
   padding: 0.5rem 1rem;
-  background-color: #00aaff;
+  background-color: #287279;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 40px;
   cursor: pointer;
 }
 
 .header .login-btn:hover {
   background-color: #008ecc;
 }
+
+

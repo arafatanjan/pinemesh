@@ -22,6 +22,7 @@
 import React, { useState } from 'react';
 import './FeatureSection.css';
 import image from '../assets/image6.png'
+import overlay from '../assets/overlay.png'
 
 const features = [
   {
@@ -60,28 +61,7 @@ const FeaturesSection = () => {
       
       <div className="features-content">
       
-        <div>
-        {/* <ul>
-          <li>
-            <i className="fas fa-check-circle"></i>
-            <span>Personalized routine</span>
-          </li>
-          <li>
-            <i className="fas fa-check-circle"></i>
-            <span>Follow-up after completing courses</span>
-          </li>
-          <li className="highlighted">
-            <i className="fas fa-check-circle"></i>
-            <div>
-              <strong>Access to additional resources</strong>
-              <p>We offer access to a variety of additional resources to enhance your experience, including exclusive tools, guides, and support materials designed to help you achieve your goals more effectively.</p>
-            </div>
-          </li>
-          <li>
-            <i className="fas fa-check-circle"></i>
-            <span>Free community support</span>
-          </li>
-        </ul> */}
+        <div style={{ width: '60%'}}>
         <h2>We provide...</h2>
            <ul className="features-list">
         {features.map((feature) => (
@@ -92,6 +72,8 @@ const FeaturesSection = () => {
             }`}
             onClick={() => handleSelect(feature.id)}
           >
+
+            <div className="feature-item-icon">
             <span
               className={`icon ${
                 selectedFeature === feature.id ? "highlighted-icon" : ""
@@ -99,12 +81,15 @@ const FeaturesSection = () => {
             >
               &#10003;
             </span>
+
             <div>
               <strong>{feature.title}</strong>
               {feature.description && selectedFeature === feature.id && (
                 <p>{feature.description}</p>
               )}
             </div>
+            </div>
+
           </li>
         ))}
       </ul>
@@ -114,7 +99,7 @@ const FeaturesSection = () => {
       <div className="features-image">
         <img src={image} alt="A mother and child sitting on a couch" />
         <div className="icon-overlay">
-          <i className="fas fa-shield-alt"></i>
+        <img src={overlay} alt="overlay" />
         </div>
       </div>
       </div>

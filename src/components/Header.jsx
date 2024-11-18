@@ -1,11 +1,11 @@
 
 import React from 'react';
 import "./Header.css"
+import cart from '../assets/cart.png'
 
 const Header = () => {
   return (
     <div className='header'>
-      {/* <nav> */}
       <div className="logo">Logo</div>
       <div>
         <ul>
@@ -16,8 +16,10 @@ const Header = () => {
           <li>Contact</li>
         </ul>
         </div>
+        <div className='cart-login'>
+        <img src={cart} alt='cart' />
         <button className="login-btn">Login</button>
-      {/* </nav> */}
+        </div>
     </div>
   );
 };

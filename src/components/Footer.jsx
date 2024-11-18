@@ -9,6 +9,7 @@ import pic4 from '../assets/Vector (4).png'
 const Footer = () => {
   return (
     <footer className="footer">
+      <div className="footer-container">
       <div className="footer-sections">
         <div className="footer-column">
           <h6 style={{color: '#666'}}>Categories</h6>
@@ -54,6 +55,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p>© 2024 EduPath. All rights reserved</p>
+      </div>
       </div>
     </footer>
   );
