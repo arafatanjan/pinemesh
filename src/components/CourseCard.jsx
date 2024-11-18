@@ -1,7 +1,7 @@
 import React from "react";
 import "./CourseCard.css";
-import star from "../assets/starcard.png";
-import mask from "../assets/mask.png";
+import star from "../../public/assets/starcard.png";
+import mask from "../../public/assets/mask.png";
 
 const CourseCard = ({
   title,

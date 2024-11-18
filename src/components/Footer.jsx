@@ -1,10 +1,10 @@
 
 import React from 'react';
 import './Footer.css';
-import pic1 from '../assets/Vector (1).png'
-import pic2 from '../assets/Vector (2).png'
-import pic3 from '../assets/Vector (3).png'
-import pic4 from '../assets/Vector (4).png'
+import pic1 from '../../public/assets/Vector (1).png'
+import pic2 from '../../public/assets/Vector (2).png'
+import pic3 from '../../public/assets/Vector (3).png'
+import pic4 from '../../public/assets/Vector (4).png'
 
 const Footer = () => {
   return (

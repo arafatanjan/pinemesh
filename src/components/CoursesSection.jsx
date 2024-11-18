@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import CourseCard from "./CourseCard";
 import "./CoursesSection.css";
-import image2 from "../assets/image2.png";
-import image3 from "../assets/image3.png";
-import image4 from "../assets/image4.png";
-import image5 from "../assets/image5.png";
-import mask from '../assets/mask.png';
-import mask2 from '../assets/mask2.png';
-import mask3 from '../assets/mask3.png';
-import mask4 from '../assets/mask4.png';
+import image2 from "../../public/assets/image2.png";
+import image3 from "../../public/assets/image3.png";
+import image4 from "../../public/assets/image4.png";
+import image5 from "../../public/assets/image5.png";
+import mask from '../../public/assets/mask.png';
+import mask2 from '../../public/assets/mask2.png';
+import mask3 from '../../public/assets/mask3.png';
+import mask4 from '../../public/assets/mask4.png';
 
 const initialCourses = [
   {

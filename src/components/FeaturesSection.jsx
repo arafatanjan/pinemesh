@@ -21,8 +21,8 @@
 // components/FeaturesSection.js
 import React, { useState } from 'react';
 import './FeatureSection.css';
-import image from '../assets/image6.png'
-import overlay from '../assets/overlay.png'
+import image from '../../public/assets/image6.png'
+import overlay from '../../public/assets/overlay.png'
 
 const features = [
   {

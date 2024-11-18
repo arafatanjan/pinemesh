@@ -1,8 +1,8 @@
 // components/HeroSection.js
 import React from "react";
 import "./HeroSection.css";
-import pic from "../assets/image1.png";
-// import star from "../assets/star.png";
+import pic from "../../public/assets/image1.png";
+import star from "../../public/assets/star.png";
 
 const HeroSection = () => {
   return (
