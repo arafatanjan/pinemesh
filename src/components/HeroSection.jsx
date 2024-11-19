@@ -2,12 +2,13 @@
 import React from "react";
 import "./HeroSection.css";
 import pic from "/assets/image1.png";
+import leaf from "/assets/leaf.png";
 import star from "/assets/Star.png";
 
 const HeroSection = () => {
   return (
     <section className="hero-section">
-      
+
       <div className="hero-content">
         <div className="rating">
           <img src={star} alt="star" />
@@ -34,6 +35,9 @@ const HeroSection = () => {
 
       <div className="hero-image">
         <img src={pic} alt="Health and Wellness" />
+        <div className="icon-leaf">
+        <img src={leaf} alt="leaf-icon"/>
+        </div>
         {/* <p>12,000+ Happy learners rely on us regularly</p> */}
         <div className="stats-banner">
           <div className="stats-top">
