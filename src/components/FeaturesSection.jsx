@@ -61,7 +61,7 @@ const FeaturesSection = () => {
       
       <div className="features-content">
       
-        <div style={{ width: '60%'}}>
+        <div className="features-content-left">
         <h2>We provide...</h2>
            <ul className="features-list">
         {features.map((feature) => (

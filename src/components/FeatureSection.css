@@ -10,6 +10,9 @@
   gap: 3rem;
   padding: 0rem;
 }
+.features-content-left {
+  width: 60%
+}
 
 .features-section h2 {
   font-size: 1.8rem;
@@ -119,6 +122,11 @@
   .features-content {
     flex-direction: column;
   }
+
+  .features-content-left {
+    width: 80%
+  }
+
   .features-image {
     width: 100%;
     
