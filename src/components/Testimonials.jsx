@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './Testimonials.css';
-import pic from '../../public/assets/Mask.png'
+import pic from '/assets/Mask.png'
 
 const testimonials = [
   {
