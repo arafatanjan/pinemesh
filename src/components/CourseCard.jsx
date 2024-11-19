@@ -2,6 +2,8 @@ import React from "react";
 import "./CourseCard.css";
 import star from "/assets/starcard.png";
 import mask from "/assets/Mask.png";
+import clock from "/assets/clock.png";
+import book from "/assets/book.png";
 
 const CourseCard = ({
   title,
@@ -30,11 +32,20 @@ const CourseCard = ({
           <img src={star} alt="star" />
           <span>{rating}</span>
         </div>
+
         <div className="details">
-          <span>{duration}</span>
-          <span>{lessons} Lessons</span>
+          <div className="details-inner">
+        <img src={clock} alt={instructor} />
+        <span>{duration}</span>
+        </div >
+        <div className="details-inner">
+        <img src={book} alt={instructor} />
+        <span>{lessons} Lessons</span>
+        </div>
         </div>
       </div>
+
+      
       <div className="instructor-price-section">
           <div className="instructor">
             <img src={avatar} alt={instructor} />
