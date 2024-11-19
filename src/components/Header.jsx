@@ -28,12 +28,12 @@ const Header = () => {
           <li>About</li>
           <li>Contact</li>
         </ul>
-        
+        </nav>
       <div className="cart-login">
         <img src={cart} alt="cart" />
         <button className="login-btn">Login</button>
       </div>
-      </nav>
+      
     </header>
   );
 };
