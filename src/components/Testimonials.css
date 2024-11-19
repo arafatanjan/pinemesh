@@ -21,7 +21,7 @@
 .testimonials-carousel {
   display: flex;
   gap: 1rem;
-  animation: scroll-left 30s linear infinite; 
+  animation: scroll-left 80s linear infinite; 
 }
 
 .testimonial-card {
