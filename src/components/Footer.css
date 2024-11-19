@@ -81,3 +81,48 @@ margin: auto;
   color: #999;
   text-align: start;
 }
+
+@media (max-width: 768px) {
+  .footer-sections {
+    flex-direction: column; /* Stack columns vertically */
+    align-items: flex-start;
+    gap: 1.5rem; /* Add spacing between sections */
+  }
+
+  .footer-column {
+    flex: none; /* Remove equal width constraint */
+    width: 100%; /* Full width for each column */
+  }
+
+  .footer-social {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 1rem; 
+  }
+
+  .footer-column h6 {
+    font-size: 0.9rem;
+  }
+
+  .footer-column p {
+    font-size: 0.8rem;
+  }
+
+  .social-icons img {
+    width: 20px;
+    height: 20px; 
+  }
+
+  .footer-bottom {
+    font-size: 0.8rem;
+  }
+}

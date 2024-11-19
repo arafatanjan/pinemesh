@@ -1,13 +1,26 @@
 
-import React from 'react';
+import React , { useState } from 'react';
 import "./Header.css"
 import cart from '/assets/cart.png'
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
-    <div className='header'>
+     <header className="header">
       <div className="logo">Logo</div>
-      <div>
+      <button className="menu-toggle" onClick={toggleMenu}>
+        ☰
+      </button>
+      <nav className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
         <ul>
           <li>Courses</li>
           <li>Instructors</li>
@@ -15,12 +28,13 @@ const Header = () => {
           <li>About</li>
           <li>Contact</li>
         </ul>
-        </div>
-        <div className='cart-login'>
-        <img src={cart} alt='cart' />
+        
+      <div className="cart-login">
+        <img src={cart} alt="cart" />
         <button className="login-btn">Login</button>
-        </div>
-    </div>
+      </div>
+      </nav>
+    </header>
   );
 };
 
