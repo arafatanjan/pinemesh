@@ -1,10 +1,7 @@
 
 .features-section {
-  /* padding: 2rem; */
   width: 60%; 
    margin: auto; 
-  /* text-align: left; */
-  /* font-family: Arial, sans-serif; */
 }
 
 .features-content {
@@ -12,7 +9,6 @@
   justify-content: space-between;
   gap: 3rem;
   padding: 0rem;
-  /* background-color: #f9fafb; */
 }
 
 .features-section h2 {
@@ -35,7 +31,6 @@
   font-size: 1rem;
   color: #666;
   cursor: pointer;
-  /* transition: background-color 0.3s ease; */
   flex-wrap: wrap;
 }
 
@@ -45,11 +40,6 @@
   gap: 10px;
 }
 
-/* .feature-item:hover {
-  background-color: #f9f9f9;
-  border-radius: 5px;
-  padding: 0.5rem;
-} */
 
 .feature-item .icon {
   display: flex;
@@ -81,7 +71,6 @@
 }
 
 .learn-more-btn {
-  /* display: block; */
   padding: 0.8rem 1.5rem;
   font-size: 12px;
   color: #00695c;
@@ -89,7 +78,6 @@
   background-color: transparent;
   border-radius: 40px;
   text-align: center;
-  /* margin: 2rem auto 0; */
   cursor: pointer;
   transition: all 0.3s ease;
 }

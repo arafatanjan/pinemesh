@@ -111,8 +111,6 @@
 }
 
 
-
-/* Stats Banner Styles */
 .stats-banner {
   position: absolute;
   top: 400px;
@@ -164,7 +162,6 @@
   font-size: 0.6rem;
   font-weight: bold;
   color: #000;
-  /* margin: 0 0 0.5rem; */
   white-space: nowrap;
 }
 
@@ -172,7 +169,7 @@
   font-size: 0.4rem;
   color: #666;
   margin: 0;
-  /* line-height: 1.5; */
+ 
 }
 
 @media (max-width: 768px) {
